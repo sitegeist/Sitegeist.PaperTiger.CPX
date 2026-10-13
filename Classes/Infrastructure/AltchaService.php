@@ -16,6 +16,7 @@ use AltchaOrg\Altcha\Payload;
 use AltchaOrg\Altcha\Solution;
 use AltchaOrg\Altcha\VerifySolutionOptions;
 
+#[Flow\Scope("singleton")]
 class AltchaService
 {
     /** challenges without expiry (not created by this service) are remembered this long */
